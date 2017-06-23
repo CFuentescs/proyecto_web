@@ -1,6 +1,6 @@
 # proyecto_web
 # by: javier, hugo, carlos .
-# el proyecto se tratara de manejo de datos en una pagina web relacionada al turismo en vino en chile.
+# cambio de planes, sera de noticias.
 
 # utilizar:
 #	
