@@ -1,6 +1,6 @@
-# proyecto_web
-# by: javier, hugo, carlos .
-# cambio de planes, sera de noticias.
+﻿# proyecto_web
+ by: javier, hugo, carlos .
+
 
 # utilizar:
 #	
