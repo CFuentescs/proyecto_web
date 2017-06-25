@@ -1,0 +1,52 @@
+.top-header{
+	background: #8B0000;
+
+}
+
+
+
+#h{
+color: white;
+margin: 10px;
+}
+
+.middle-header{
+	margin: 20px;
+}
+#logoruta{
+margin: -10px;
+
+}
+
+
+section{
+	margin-top: 10px;
+}
+
+.atraccion{
+	text-align: center;
+}
+
+footer{
+	background-color: #443b42;
+}
+
+.title-footer{
+	color: white;
+}
+
+p{
+	color: white
+}
+
+#nombres{
+	color: white;
+}
+
+.nosotros{
+	text-align: center
+}
+.proyecto{
+	background: black;
+	color: white
+}
