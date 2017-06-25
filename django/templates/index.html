@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagenes/chile.ico" type="image/x-icon">
+    <link rel="icon" href="imagenes/chile.ico" type="image/x-icon">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ruta Del Vino</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!--Header informacion -->
+    <div class="top-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="list-inline pull-left">
+              <li>
+                <select class="selectpicker" data-width="95px" data-style="btn-default">
+                  <option value="English" data-content="<img alt='English' src='imagenes/usa.jpg'> English">English</option>
+                  <option value="Spanish" data-content="<img alt='Spanish' src='imagenes/chile.jpg'> Spanish">Español</option>
+                </select>
+              </li>
+              <li>
+                <select class="selectpicker" data-width="70px" data-style="btn-default">
+                  <option value="USD">$ USD</option>
+                  <option value="CLP">$ CLP</option>
+                </select>
+              </li>
+              <li class="hidden-xs"><a href="#"><i class="fa fa-phone"></i><p id="h">Telefono de contacto: +56999111840</p></a></li>
+              <li class="hidden-xs"><a href="mailto:hugo.exe@hotmail.com"><i class="fa fa-envelope"></i><p id="h">Correo: hugo.exe@hotmail.com</p></a></li>
+            </ul>
+            <ul class="list-inline pull-right">
+              <li>
+                <li><a href="nuevousuario.html"><p id="h">Login</p></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fin Header informacion -->
+
+
+
+    <!--Header principal -->
+    <div class="middle-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 logo">
+            <a href="index.html"><img alt="Logo" src="imagenes/ruta.jpg" class="img-responsive" id="logoruta" /></a>
+          </div>
+          <div class="col-sm-8 col-md-6 search-box m-t-2">
+            <div class="input-group">
+              <input type="text" class="form-control search-input" aria-label="Buscar" placeholder="Buscar" autocomplete="off">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-default btn-search"><i class="fa fa-search"></i>Buscar</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3 cart-btn hidden-xs m-t-2">
+            <button type="button" class="btn btn-default dropdown-toggle" id="dropdown-cart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <i class="fa fa-shopping-cart"></i> Carro de compras: 0 items<i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-cart">
+  
+              <div class="subtotal-compra">Subtotal: <span>$0</span></div>
+              <div class="text-center">
+                  <div class="btn-group" role="group" aria-label="View Cart and Checkout Button">
+                    <button class="btn btn-default btn-sm" type="button"><i class="fa fa-shopping-cart"></i> Ver carro</button>
+                    <button class="btn btn-default btn-sm" type="button"><i class="fa fa-check"></i> Pagar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--fin Header principal -->
+
+
+
+
+
+
+     <!-- barra de navegación -->
+    <nav class="navbar navbar-default shadow-navbar" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-ex1-collapse">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="cart.html" class="btn btn-default btn-cart-xs visible-xs pull-right">
+              <i class="fa fa-shopping-cart"></i> Carro : 0 items
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="Viñas.html">Viñas</a></li>
+              <li><a href="Tour.html">Tour y almuerzo</a></li>
+              <li><a href="Tren.html">tren</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right navbar-feature">
+             <li><a href="Programas.html">Programas</a></li>
+              <li><a href="Empresas.html">Empresas</a></li>
+              <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    <!-- fin barra de navegación -->
+
+                <!--navegacion lateral-->
+                <div class="container">
+                <div class="row">
+                <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicadores -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- imagenes-->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="imagenes/slide1.jpg" alt="escapadas">
+                    </div>
+
+                    <div class="item">
+                      <img src="imagenes/slide2.jpg" alt="tours">
+                    </div>
+
+                    <div class="item">
+                      <img src="imagenes/slide3.jpg" alt="outdoor">
+                    </div>
+                  </div>
+
+                  <!-- botones izquierda y derecha -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Siguiente</span>
+                  </a>
+                </div>
+                </div>
+                </div>
+              </div>
+              <!--fin navegacion lateral-->
+
+  <!--contenido principal-->
+   <div class="container">
+     <div class="row">
+       <div class=" atraccion col-sm-12">
+         <h4 class="spb_heading"><span><p></p>
+           <h1>Principales tours</h1>
+             <p></p></span></h4>
+       </div>
+     </div>
+   </div>
+   <section>
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-lg-4 aside">
+            <div class="row">
+              <div class="col-sm-4 col-lg-12">                
+                <img src="imagenes/koyle.jpg" alt="" class="img-thumbnail" height="500" width="300">
+              </div>
+              <div class="col-sm-8 col-lg-12">            
+                <h4>Viña Koyle</h4>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-xs-6 col-sm-4">
+                <img src="imagenes/apaltagua.jpg" alt="" class="img-responsive img-thumbnail" height="200" width="300">
+                <p><a href="detalle.html">Viña apaltagua </a></p>
+                <p><span class="label label-info">Viñas</span></p>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <img src="imagenes/los-vascos.jpg" alt="" class="img-responsive img-thumbnail" height="200" width="300">
+                <p><a href="detalle.html">Viña los vascos </a></p>
+                <p><span class="label label-info">Viñas</span></p>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <img src="imagenes/neyen.jpg" alt="" class="img-responsive img-thumbnail" height="200" width="300">
+                <p><a href="detalle.html">viña neyen</a></p>
+                <p><span class="label label-info">Viñas</span></p>
+              </div>              
+
+              <div class="col-xs-6 col-sm-4">
+                <img src="imagenes/lapostolle.jpg" alt="" class="img-responsive img-thumbnail" height="200" width="300">
+                <p><a href="detalle.html">Viña lapostolle</a></p>
+                <p><span class="label label-info">Viñas</span></p>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <img src="imagenes/varietales.jpg" alt="" class="img-responsive img-thumbnail" height="200" width="300">
+                <p><a href="detalle.html">Los varietales</a></p>
+                <p><span class="label label-info">Tour y almuerzo</span></p>
+              </div>
+              <div class="col-xs-6 col-sm-4">
+                <img src="imagenes/colchagua.jpg" alt="" class="img-responsive img-thumbnail" height="200" width="300">
+                <p><a href="detalle.html">Colchagua</a></p>
+                <p><span class="label label-info">Tour y almuerzo</span></p>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- fin contenido principal-->
+
+
+
+
+  <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+    
+          <div class="col-md-4 col-sm-6">
+            <div class="title-footer"><span>Siguenos</span></div>
+            <li><a href="http://github.com/hriquelme">Hugo Riquelme</a></li>
+            <li><a href="https://github.com/crossfatal">Carlos Fuentes</a></li>
+            <li><a href="https://github.com/javierwailau">Javier Lau</a></li>
+
+          </div>
+          <div class="clearfix visible-sm-block"></div>
+          <div class="col-md-4 col-sm-6">
+            <div class="title-footer"><span>Metodos de pago</span></div>
+            <p>Contamos con diferentes metodos de pago para que te sientas libre de escoger el metodo que maste acomode!</p>
+            <img src="imagenes/webpay.png" alt="Forma de pago">
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="title-footer"><span>Mi cuenta</span></div>
+            <ul>
+              <li><i class="fa fa-angle-double-right"></i> <a href="#">Ordenes</a></li>
+              <li><i class="fa fa-angle-double-right"></i> <a href="#">Vouchers</a></li>
+              <li><i class="fa fa-angle-double-right"></i> <a href="#">Cerrar sesion</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="proyecto text-center ">
+        Proyecto desarrollo web 2017
+      </div>
+    </footer>
+    <!-- fin Footer -->
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
